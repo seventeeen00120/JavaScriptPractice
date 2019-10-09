@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-TW">   <!--中文字體設定-->
+    <head>
+        <title>表單(二)</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./css/page2.css">
+        <script type="text/javascript" src="./javascript/page2.js"></script>
+    </head>
+    <body>
+        <form>
+         <fieldset>
+          <legend>性別</legend>
+             <input type="radio" name="gender" value="male">男<br>
+             <input type="radio" name="gender" value="female">女<br>
+         </fieldset>
+            
+         <fieldset>
+          <legend>飲料</legend>
+             <input type="radio" name="drink" value="coffee">
+             <label for="coffee">咖啡</label><br>
+             <input type="radio" name="drink" value="tea">
+             <label for="coffee">茶</label><br>
+             <input type="radio" name="drink" value="water">
+             <label for="coffee">水</label><br>
+         </fieldset>
+            
+         <fieldset>
+          <legend>喜歡的運動</legend>
+             <input type="checkbox" name="sport" value="baseball">棒球<br>
+             <input type="checkbox" name="sport" value="basketball">籃球<br>
+             <input type="checkbox" name="sport" value="football">足球<br>
+         </fieldset>
+            訂購個數(1-5)
+            <select name="num1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+            
+         <textarea name="textarea" rows="10" cols="50"placeholder=請在此輸入訊息></textarea><br>
+         <p id="result"></p>
+         <input type="button" onclick="getData()" value="送出">
+         <input type="reset" value="清空表單"><br>
+        </form>
+        
+    </body>
+    <foot>
+        <a href="index.html">回首頁</a>
+    </foot>
+</html>

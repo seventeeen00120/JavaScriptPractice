@@ -1,0 +1,87 @@
+a:link{
+    color:#0000FF;
+}
+
+a:visited{
+    color:#0000FF;
+}
+.div1{
+    display:block;
+    width:60%;
+    margin:auto;
+    box-shadow:8px 8px 10px orange;
+}
+
+.div2{
+    width:400px;
+    border:1px red solid;
+    margin-bottom: 40px;
+}
+
+.font1{
+    font-style:normal;
+    font-weight: bold;
+    font-size:16px;
+    line-height: :20px;
+    font-family: "Times New Roman","標楷體";
+    color:red;
+}
+
+.font2{
+    font-style:italic;
+    font-weight: normal;
+    font-size:1.5em;
+    line-height: :20px;
+    font-family: "sans-serif","新細明體";
+    color:#0000FF;
+}
+
+.font3{
+    font:italic bold 16px/20px"Times New Roman","標楷體";
+    color:green;
+}
+
+.img1{
+    width: 60%;
+    display:block;
+    border:2px solid red;
+    border-radius:30px;
+    margin:auto;
+    opacity:0.7;
+}
+
+.img2{
+    width: 60%;
+    display:block;
+    margin:auto;
+    border-radius:50px;
+    opacity:0.7;
+}
+
+.img3{
+    width:100%
+}
+
+
+.text1{
+    text-align:center;
+    padding:10px;
+}
+
+.text2{
+    font-size: 40px;
+    color:white;
+    text-align:center;
+    text-shadow:4px 4px 4px #FF0000;
+}
+
+#bg1{
+    height: 50px;
+    background-color: blue;
+}
+#bg2{
+    height: 50px;
+    background-image: url("../images/03.jpg");
+    background-repeat: repeat;
+    border: 0px;
+}

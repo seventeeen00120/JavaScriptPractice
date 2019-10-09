@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-TW">   <!--中文字體設定-->
+    <head>
+        <title>JavaScript基礎範例</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./css/page3.css">
+        <script type="text/javascript" src="./javascript/page3.js"></script>
+    </head>
+    <body>
+        <div>
+        <p id="js1">按下按鈕在此顯示時間</p>
+        <button type="button" onclick="document.getElementById('js1').innerHTML=Date()">點選顯示時間</button>
+        </div>
+        
+        <div>
+        <p id="js2">按下按鈕更改文字大小</p>
+        <button type="button" onclick="document.getElementById('js2').style.fontSize='50px'">設定文字大小50px</button>
+        <button type="button" onclick="document.getElementById('js2').style.fontSize='10px'">設定文字大小10px</button>
+        </div>
+        
+        <div>
+         <p id="js3">這些文字不會出現</p>
+        </div>
+        
+        <div>
+         <p id="js4">按下按鈕顯示隱藏此段文字</p>
+            <button type="button" onclick=hide()>點選隱藏文字</button>
+            <button type="button" onclick=show()>點選顯示文字</button>
+        </div>
+    </body>
+    <foot>
+        <a href="index.html">回首頁</a>
+    </foot>
+</html>

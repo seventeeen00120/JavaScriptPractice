@@ -1,0 +1,24 @@
+textarea,input,select{
+    margin:5px;
+}
+
+fieldset{
+    margin:5px;
+    width:150px;
+}
+
+textarea:focus{
+    background-color:aqua;
+}
+
+input[type=radio]+label{
+    color:blue;
+}
+
+input[type=radio]:checked+label{
+    color:red;
+}
+
+input[type=button]:hover{
+    background-color:orange;
+}

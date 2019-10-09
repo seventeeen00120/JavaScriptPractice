@@ -1,0 +1,24 @@
+input{
+    border:1px blue solid;
+    margin:10px 0;
+}
+
+input:required{
+    background-color:yellow;
+}
+
+input:disabled{
+    background-color:lightgray;
+}
+
+input:invalid{
+    border:1px solid red;
+}
+
+input:focus{
+  background-color:azure;
+}
+
+input[type=button]:hover{
+    background-color:orange;
+}
